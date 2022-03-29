@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="uma01" verbose="10" parallel ="false" thread-count="5">
+  <!-- <parameter browser1="selenium.browser" value="*chrome" /> -->
+	<!-- <parameter browser2="selenium.browser" value="*firefox" /> -->
+  <test name="firsttest">
+
+<classes>
+
+<class name="CovidSite.HospitalInfo"> </class>
+
+</classes>
+   </test>
+</suite>
