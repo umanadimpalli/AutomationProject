@@ -107,6 +107,7 @@ public static void getHospitalInfo() throws InterruptedException
 		}
 		}
     	}
+//changing
     public static void main(String args[]) throws Exception
 	{
 		System.out.println("Covid site Launched");
